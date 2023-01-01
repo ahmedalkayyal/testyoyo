@@ -35,10 +35,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   #lecle_yoyo_player:
-  m3u_nullsafe: ^1.0.4
-  dio: ^4.0.6
-  video_player: ^2.4.7
-  flutter_bloc: ^7.0.1
+  m3u_nullsafe:
+  dio:
+  video_player:
+  flutter_bloc:
   device_preview:
 
 

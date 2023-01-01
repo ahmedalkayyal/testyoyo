@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                   const Text('Add The M3U URL',
+                    Text('Add The M3U URL',
                     style: TextStyle(color: Colors.white,fontSize: 18,fontWeight: FontWeight.bold,),
                   ),
                   const SizedBox(height: 50,),
@@ -73,12 +73,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: MediaQuery.of(context).size.width*0.25,
                           child: Center(
                             child: Text(state.myData[i].category,
-                              style: const TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                              style:  TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                           )),
                       title: Padding(
                         padding: const EdgeInsets.all(10.0),
                          child: Text(state.myData[i].title,
-                          style: const TextStyle(color: Colors.white,fontStyle: FontStyle.italic,fontSize: 18),),
+                          style:  TextStyle(color: Colors.white,fontStyle: FontStyle.italic,fontSize: 18),),
                       ),
                       //subtitle: Text(state.myData[i].link,style: TextStyle(color: Colors.white,fontSize: 11),),
                       onTap: () {
