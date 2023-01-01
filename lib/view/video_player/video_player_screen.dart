@@ -134,6 +134,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
         ),
       );
 
+
   Widget buildFullScreen({
     required Widget child,
   }) {
